@@ -1,6 +1,5 @@
 import math
 
-circ_radius_str = input("Input circle radius: ")
-circ_radius = float(circ_radius_str)
+circ_radius = float(input("Input circle radius: "))
 area = (math.pi)*(math.pow(circ_radius, 2))
 print(f"Area of circle: {area:6.2f}")
