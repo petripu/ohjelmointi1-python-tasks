@@ -1,1 +1,2 @@
-print("moi petri uwu")
+user = input('Anna nimesi: ')
+print("Terve, " + user)
