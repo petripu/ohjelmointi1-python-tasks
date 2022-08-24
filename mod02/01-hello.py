@@ -1,2 +1,2 @@
-user = input('Anna nimesi: ')
-print("Terve, " + user)
+user = input('User name: ')
+print("Hello, " + user)
