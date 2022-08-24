@@ -14,7 +14,7 @@ second = ((naula_n * 32) * 13.3)
 third = luoti_n * 13.3
 
 total = first + second + third
-sum_kg = total/1000
+sum_kg = total / 1000
 sum_gram = round(total % 1000, 2)
 
 # print weight in kilograms and grams
