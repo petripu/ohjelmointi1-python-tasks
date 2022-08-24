@@ -1,3 +1,4 @@
+# ask user for input
 num1 = int(input("Input first number: "))
 num2 = int(input("Input second number: "))
 num3 = int(input("Input third number: "))

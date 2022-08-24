@@ -1,5 +1,6 @@
 # importing secrets for extra security
 import secrets
+
 sg = secrets.SystemRandom()
 
 # 3 digit code 0-9
