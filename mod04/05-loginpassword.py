@@ -18,6 +18,5 @@ while username_input != username or password_input != password:
     print(f"Login incorrect, try again. Attempts remaining {counter}")
     username_input = input("Input username: ")
     password_input = input("Input password: ")
-
-if username_input == username and password_input == password:
+else:
     print("Welcome!")
