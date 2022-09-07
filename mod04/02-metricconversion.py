@@ -9,4 +9,3 @@ while inches > 0:
     centimeters = inches * 2.54
     print(f"{inches} inches is {centimeters} centimeters")
     inches = float(input("Input inches to be converted: "))
-
