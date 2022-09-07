@@ -4,10 +4,12 @@
 # Edellisessä tapauksessa tulostetaan Tervetuloa ja jälkimmäisessä Pääsy evätty.
 # (Oikea käyttäjätunnus on python ja salasana rules).
 
+# set login variables and a counter for fails
 username = "python"
 password = "rules"
 counter = 5
 
+# ask user input and compare it to variables
 username_input = input("Input username: ")
 password_input = input("Input password: ")
 while username_input != username or password_input != password:
