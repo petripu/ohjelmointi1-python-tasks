@@ -6,3 +6,9 @@ while number < 1000:
     if number % 3 == 0:
         print(number)
     number += 1
+
+# example from lesson
+# number = 3
+# while number <= 1000:
+#   print(number)
+#   number = number + 3
