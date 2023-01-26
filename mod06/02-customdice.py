@@ -6,6 +6,7 @@
 
 import random
 
+
 # throw gets value from input
 def throw(sides):
     return random.randint(1, sides)
@@ -15,6 +16,10 @@ def throw(sides):
 sides = int(input("Whats the number of sides on the dice?: "))
 print(f"Throwing the dice until {sides}!")
 dice = 0
+throws = 0
 while dice != sides:
     dice = throw(sides)
     print(dice)
+    throws += 1
+else:
+    print(f"It took {throws} throws until success!")
