@@ -3,7 +3,7 @@ from geopy.distance import great_circle
 
 
 def calculate_distance(icao1, icao2, cursor):
-    sql = f"SELECT name, latitude_deg, longitude_deg FROM airport where ident='{icao1}' OR ident='{icao2}'"
+    sql = f"SELECT name, latitude_deg, longitude_deg FROM airport WHERE ident in ('{icao1}','{icao2}')"
 #    print(sql)
     cursor.execute(sql)
     orig = None
